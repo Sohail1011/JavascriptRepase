@@ -21,14 +21,14 @@ if (x % 2 === 0) {
 
 /* Ejercicio 3 */
 
-const x = prompt('Ingrese primer número');
+/* const x = prompt('Ingrese primer número');
 const y = prompt('Ingrese segundo número');
 
 if (x > y) {
     alert('El número ' + x + ' es mayor.');
 } else {
     alert('El número ' + y + ' es mayor.');
-}
+} */
 
 /* Ejercicio 7 */
 
@@ -77,3 +77,53 @@ if (year == 1) {
 } else if (year > 5) {
     alert('Su bono es de $1000.');
 } */
+
+/* Ejercicio 9 */
+
+/* const edad = prompt('Ingrese edad:');
+
+if (edad >= 18) {
+    alert('Usted puede votar.');
+} else {
+    alert('Usted no puede votar.');
+} */
+
+/* Ejercicio 13 */
+
+/* const iceCream = prompt('Bienvenid@, ¿Qúe helado topping de pedir?');
+
+if (iceCream === 'topping de oreo') {
+    alert('Un helado topping de oreo, seria 10 MXN.');
+} else if (iceCream === 'topping de KitKat') {
+    alert('Un helado topping de KitKat, seria 15 MXN.');
+} else if (iceCream === 'topping de brownie') {
+    alert('Un helado topping de brownie, seria 20 MXN.');
+} else if (iceCream === 'helado sin topping') {
+    alert('Un helado sin topping, seria 50 MXN.');
+} else {
+    alert('No tenemos este topping, lo sentimos.');
+} */
+
+
+/* ------------  Reto 2  ---------------- */
+
+/* Ejercicio 1 */
+
+/* const password = prompt('Ingrese su contraseña');
+
+if (password === 'contraseña') {
+    alert('Su contraseña es correcta: ' + password + '.');
+} else {
+    alert('Su contraseña es incorrecta: ' + password + '.');
+} */
+
+/* Ejercicio 2 */
+
+const yearOld = prompt('¿Cuántos años tienen?');
+const months = prompt('¿Cuánto es tu mensualidad?');
+
+if (yearOld >= 18 && months >= 1000) {
+    alert('Usted debe de tributar.');
+} else {
+    alert('Usted es menor de y no debe nada.');
+}
