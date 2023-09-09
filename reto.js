@@ -119,11 +119,36 @@ if (password === 'contraseña') {
 
 /* Ejercicio 2 */
 
-const yearOld = prompt('¿Cuántos años tienen?');
+/* const yearOld = prompt('¿Cuántos años tienen?');
 const months = prompt('¿Cuánto es tu mensualidad?');
 
 if (yearOld >= 18 && months >= 1000) {
     alert('Usted debe de tributar.');
 } else {
     alert('Usted es menor de y no debe nada.');
+} */
+
+/* Ejercicio 3 */
+/* 
+const person = {
+    name: prompt('¿Cuál es tu nómbre?'),
+    age: prompt('¿Cuál es tu edad?'),
+    gender: prompt('¿Qué genero eres?')
+}
+
+if (person.name == ['Nandes', 'Nicolas'] && person.gender == 'Masculino') {
+    alert('Usted es: ' + person.name + ', ' + person.age + ', ' + person.gender + '. Debe estar en el grupo B.');
+} else {
+    alert('Usted es: ' + person.name + ', ' + person.age + ', ' + person.gender + '. Debe estar en el grupo A.');
+} */
+
+/* Ejercicio 4 */
+
+const x = prompt('Ingrese tu primer número');
+const y = prompt('Ingrese tu segundo número');
+
+if (x * y > 0) {
+    alert('Es mayor número entero.');
+} else {
+    alert('Es menor número entero.');
 }
