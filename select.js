@@ -10,3 +10,10 @@ function area([a, b, c, d]) {
 }
 
 console.log(area(numeros));
+
+
+const items = ['Laptop', 'Boat', 'Car', 'Monitor'];
+
+const itemSize = items.map((i) => i.length <= 3 ? 'Demasiado corto' : 'Demasiado largo');
+
+console.log(itemSize);
