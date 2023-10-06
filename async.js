@@ -56,7 +56,14 @@ function requestHandler(req, res) {
         .then(function (car) {
             return Model.findById(car.modelId);
         })
-        .catch(function (err) {
-            res.send(err);
+        .then(function (models) {
+            models.completed = true;
+            models.save();
+        })
+        .then(function () {
+            res.send('Model Completed');
+        })
+        .catch(function (errors) {
+            res.send(errors);
         })
 }
