@@ -17,3 +17,26 @@ const items = ['Laptop', 'Boat', 'Car', 'Monitor'];
 const itemSize = items.map((i) => i.length <= 3 ? 'Demasiado corto' : 'Demasiado largo');
 
 console.log(itemSize);
+
+const characters = [
+    {
+        id: 1,
+        name: 'Sakuya'
+    },
+    {
+        id: 2,
+        name: 'Reimu'
+    },
+    {
+        id: 3,
+        name: 'Marisa'
+    },
+    {
+        id: 4,
+        name: 'Rumia'
+    }
+]
+
+characters.forEach((n) => {
+    console.log(n.name)
+})
