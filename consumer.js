@@ -9,5 +9,5 @@ function getURL(done) {
 }
 
 getURL(data => {
-    console.log(data)
+    console.log(data.images)
 });
