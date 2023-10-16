@@ -1,13 +1,7 @@
-function getURL(done) {
-    const results = fetch("https://api.waifu.im/search?included_tags=waifu");
-
-    results
-        .then(response => response.json())
-        .then(data => {
-            done(data);
-        })
+async function readAPI() {
+    const request = await fetch(`https://nekos.best/api/v2/dance?amount=20`);
+    const response = await request.json();
+    console.log(response.results);
 }
 
-getURL(data => {
-    console.log(data.images)
-});
+readAPI();

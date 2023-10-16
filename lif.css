@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Gabarito', sans-serif;
+    max-height: 120vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    gap: 1rem;
+}
+
+.busqueda h1 {
+    font-size: 3rem;
+}
+
+.acercamiento {
+    display: flex;
+    height: 2rem;
+}
+
+.acercamiento input {
+    border: none;
+    color: black;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-family: 'Gabarito', sans-serif;
+    padding: 1rem;
+}
+
+.acercamiento select {
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.acercamiento button {
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-family: 'Gabarito', sans-serif;
+}

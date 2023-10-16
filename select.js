@@ -33,7 +33,7 @@ const characters = [
     },
     {
         id: 4,
-        name: 'Rumia'
+        name: 'Sanae'
     }
 ]
 
